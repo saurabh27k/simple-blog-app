@@ -15,7 +15,7 @@ A full-stack Django web application that allows users to create, view, edit, and
 
 
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack.
 
 - **Backend:** Python, Django
 - **Frontend:** HTML, CSS, Bootstrap
