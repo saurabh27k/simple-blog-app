@@ -22,7 +22,7 @@ A full-stack Django web application that allows users to create, view, edit, and
 - **Database:** SQLite
 - **Version Control:** Git & GitHub
 
----
+
 
 ## 📸 Screenshots
 
