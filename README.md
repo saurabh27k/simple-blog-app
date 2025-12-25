@@ -13,7 +13,7 @@ A full-stack Django web application that allows users to create, view, edit, and
 - Admin panel for managing content
 - Clean project structure following Django best practices
 
----
+
 
 ## 🛠 Tech Stack
 
