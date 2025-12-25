@@ -2,7 +2,7 @@
 
 A full-stack Django web application that allows users to create, view, edit, and manage blog posts with image uploads and authentication.
 
----
+
 
 ## 🚀 Features
 
