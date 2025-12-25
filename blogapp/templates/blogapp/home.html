@@ -1,0 +1,37 @@
+{% extends "blogapp/base.html" %}
+
+{% block title %}Home - Simple Blog{% endblock %}
+
+{% block content %}
+
+{% for post in posts %}
+<article class="post-card">
+
+    <h2>
+        <a href="{% url 'blogapp:post_detail' pk=post.pk %}">
+            {{ post.title }}
+        </a>
+    </h2>
+
+    {% if post.image %}
+        <img src="{{ post.image.url }}" alt="{{ post.title }}" class="post-image">
+    {% endif %}
+
+    <p class="post-meta">
+        {{ post.created_at|date:"M d, Y • h:i a" }}
+    </p>
+
+    <p>{{ post.content|truncatechars:160 }}</p>
+
+</article>
+{% empty %}
+<p>No posts available.</p>
+{% endfor %}
+
+{% endblock %}
+
+
+
+
+
+

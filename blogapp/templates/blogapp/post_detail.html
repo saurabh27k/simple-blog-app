@@ -1,0 +1,18 @@
+{% extends "blogapp/base.html" %}
+
+{% block title %}{{ post.title }} · Simple Blog{% endblock %}
+
+{% block content %}
+<article class="post-card">
+    <h1>{{ post.title }}</h1>
+    <p class="post-meta">
+        {{ post.created_at|date:"M d, Y · h:i a" }}
+    </p>
+
+    <p>{{ post.content|linebreaks }}</p>
+
+    <div class="post-actions">
+        <a href="{% url 'blogapp:home' %}" class="btn-secondary">← Back to Home</a>
+    </div>
+</article>
+{% endblock %}
