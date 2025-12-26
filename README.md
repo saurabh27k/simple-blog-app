@@ -26,7 +26,7 @@ A full-stack Django web application that allows users to create, view, edit, and
 
 ## 📸 Screenshots
 
-_Add screenshots of your project UI here._
+_Add screenshots of your project UI here._.
 
 
 
