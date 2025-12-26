@@ -37,7 +37,7 @@ _Add screenshots of your project UI here._
 
 ## 🎯 Purpose of the Project
 
-This project was built to practice full-stack development using Django and to understand real-world CRUD operations, authentication, and deployment workflow.
+This project was built to practice full-stack development using Django and to understand real-world CRUD operations,authentication, and deployment workflow.
 
 
 
