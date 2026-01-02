@@ -41,7 +41,7 @@ This project was built to practice full-stack development using Django and to un
 
 
 
-## 👨‍💻 Developer
+## 👨‍💻 Developer 
 
 **Saurabh Khapale**  
 Full Stack Developer | Java & Python  
