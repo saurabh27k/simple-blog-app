@@ -4,7 +4,7 @@ A full-stack Django web application that allows users to create, view, edit, and
 
 
 
-## 🚀 Features,
+## 🚀 Features
 
 - User authentication (Login / Logout)
 - Create, edit and delete blog posts
